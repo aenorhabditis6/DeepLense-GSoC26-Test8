@@ -1,10 +1,13 @@
 # Diffusion Models for Gravitational Lensing Simulation
 
-Test task for **DeepLense / ML4SCI (GSoC 2026)** — [Physics-Informed Diffusion Models for Gravitational Lensing Simulation](https://ml4sci.org/gsoc/2026/proposal_DEEPLENSE8.html).
+Evaluation test submissions for **DeepLense / ML4SCI (GSoC 2026)** — [Physics-Informed Diffusion Models for Gravitational Lensing Simulation](https://ml4sci.org/gsoc/2026/proposal_DEEPLENSE8.html).
+Common Test VIII. 
+**Author:** Xinming (Tina) Shen · Johns Hopkins University · xshen43@jh.edu
+
 
 ## Results
 
-**FID = 2.20** (1,000 generated vs 1,000 real, 64×64, `clean-fid`)
+**FID = 2.20** (1,000 generated images vs 1,000 real images, 64×64, `clean-fid`)
 
 Trained a DDPM via [guided-diffusion](https://github.com/openai/guided-diffusion) for 210k steps on the provided 10,000 lensing images. Best checkpoint at step 145k by smoothed training loss.
 
