@@ -1,8 +1,8 @@
 # Diffusion Models for Gravitational Lensing Simulation
 
-Evaluation test submissions for **DeepLense / ML4SCI (GSoC 2026)** — [Physics-Informed Diffusion Models for Gravitational Lensing Simulation](https://ml4sci.org/gsoc/2026/proposal_DEEPLENSE8.html).
+Common Test VIII for **DeepLense / ML4SCI (GSoC 2026)** — [Physics-Informed Diffusion Models for Gravitational Lensing Simulation](https://ml4sci.org/gsoc/2026/proposal_DEEPLENSE8.html).
 
-Common Test VIII. 
+
 
 **Author:** Xinming (Tina) Shen · Johns Hopkins University · xshen43@jh.edu
 
