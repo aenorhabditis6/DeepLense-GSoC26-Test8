@@ -71,13 +71,13 @@ Things I'd explore with more time/compute:
 
 ## How to Run
 
-Open `ddpm_gravitational_lensing.ipynb` in Colab with a T4 GPU. Place `Samples/` (containing `sample1.npy` through `sample10000.npy`) under:
+Open `ddpm_gravitational_lensing.ipynb` in Colab with a GPU. Place `Samples/` (containing `sample1.npy` through `sample10000.npy`) under:
 
 ```
 /content/drive/MyDrive/Colab Notebooks/GoSC26/ML4DQM_7/
 ```
 
-Run all cells. Training takes ~3 hours for 210k steps at 64×64.
+Run all cells. Training takes ~15 hours for 210k steps at 64×64.
 
 ## References
 
