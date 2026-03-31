@@ -55,7 +55,7 @@ Went with **per-image percentile clipping (1st–99th percentile)** — it adapt
 | Noise schedule | Cosine |
 | Diffusion steps | 1000 |
 | LR / batch / FP16 | 1e-4 / 16 / Yes |
-| Training steps | 210,000 (~3h on T4) |
+| Training steps | 210,000 (~16h on T4) |
 
 Cosine schedule over linear because it allocates more noise budget to low-noise timesteps, which matters more for relatively simple 64×64 images (Nichol & Dhariwal, 2021). Learned sigma and scale-shift norm are from the improved DDPM line of work.
 
